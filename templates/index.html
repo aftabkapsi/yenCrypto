@@ -6,38 +6,47 @@
     <title>YenCryto - Basic Caeser Cipher Implementation</title>
 </head>
 <body>
-    <h1>welcome to YenCryto.</h1>
-    <p>
-        This is the caeser cipher encyption and decryption website. 
-    </p>
-
-    <!--input section-->
-
-    <div>
-        <h2>Input</h2>
-        <textarea id="inputText" rows="4" cols="50" placeholder="Enter yout text here..."></textarea>
-    </div>
-
-    <!--shift value section-->   
     
-    <div>
-        <h2>Shift Value</h2>
-        <input type="number" value="3">
-    </div>
-
-    <!--button section-->
     
-    <div>
-        <button>encrypt</button>
-        <button>decrypt</button>
-    </div>
+    <div class="container">
+         <header>    <!--Header Section-->
+            <h1>Caeser Cipher</h1>
+            <p>A simple encryption tool using classic letter-shift method</p>
+         </header>   <!--Header Section-->
 
-    <!--output section-->
+         <div class="card"> <!--Body Section-->
+             <div class="card-header">
+                <h2>Caeser Cipher Tool</h2>
+                <p>Encrypt or decrypt text by shifting letters</p>
+             </div>
+        
 
-    <div>
-        <h2>result</h2>
-        <textarea rows="4" cols="50" readonly placeholder="Result will be displayed here..."></textarea>
+            <div class="card-content">
+                <div class="tabs">
+                   <button class="tab active" data-mode="encrypt">Encrypt</button>
+                   <button class="tab" data-mode="decrypt">Decrypt</button>
+                </div>
+
+                <div class="form-group">
+                   <label id="input-label">Orignal Text</label>
+                   <textarea id="input-text" placeholder="Enter text to encrypt..."></textarea>
+                </div>
+
+                <div class="arrow">-></div>
+             
+                <div class="form-group">
+                    <label id="output-label">Encrypted Result</label>
+                    <div class="output-container">
+                       <textarea id="output-text" readonly></textarea>
+                      <button id="copy-btn" class="copy-btn">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </div>               <!--Body Section-->
+
+        <footer>             <!--footer section-->
+            <p>Caesar Cipher tool @ YenCryto</p>
+        </footer>            <!--footer section-->
     </div>
-    
 </body>
 </html>

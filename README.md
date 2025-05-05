@@ -1,7 +1,7 @@
-# Implementation of caeser cipher Encryption-Decryption Website
+# Implementation of Caeser Cipher Encryption-Decryption Website
 
 ## Description
- A simple, beginner-friendly web application to encrypt and decrypt text using the **ceasar cipher** technique.
+ A simple, beginner-friendly web application to encrypt and decrypt text using the **Ceasar Cipher** technique.
 
  This project is built using **HTML**, **CSS**, and **Python Flask** providing a clean and responsive interface for users to easily perform text encryption and decryption.
 

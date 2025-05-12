@@ -11,6 +11,6 @@
  - Download the result as a `.txt` file.
 
 ## Tech Stack
-- **Frontend:** HTML, CSS3, JavaScript, Tailwind CSS.
+- **Frontend:** HTML, CSS3, JavaScript.
 - **Backend:** Python 3, Flask.
 - **Version Control:** Git & Github.

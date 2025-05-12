@@ -15,7 +15,8 @@
 - **Backend:** Python 3, Flask.
 - **Version Control:** Git & Github.
 
-## yenCrypto/
+## Project structure
+yenCrypto/
 
 ├── static/ # Static files (JavaScript, CSS)
 

@@ -27,7 +27,6 @@
 
 │ └── index.html
 
-│
 
 ├── .gitignore # Git ignore configuration
 

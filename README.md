@@ -14,3 +14,19 @@
 - **Frontend:** HTML, CSS3, JavaScript.
 - **Backend:** Python 3, Flask.
 - **Version Control:** Git & Github.
+
+## yenCrypto/
+│
+├── static/ # Static files (JavaScript, CSS)
+│ ├── script.js
+│ └── style.css
+│
+├── templates/ # HTML templates
+│ └── index.html
+│
+├── .gitignore # Git ignore configuration
+├── 35472_yencrpto.pdf # Encrypted PDF file
+├── 35473yencrypto.pdf
+├── 38465yencrypto.pdf
+├── README.md # This documentation file
+└── app.py # Flask app entry point

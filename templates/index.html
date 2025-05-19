@@ -30,11 +30,19 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="shift">Shift Value:</label>
+                    <div class="slider-container">
+                        <input type="range" id="shift-slider" min="1" max="25" value="3">
+                        <input type="number" id="shift" min="1" max="25" value="3">
+                    </div>
+                </div>
+
+                <div class="form-group">
                    <label id="input-label">Orignal Text</label>
                    <textarea id="input-text" placeholder="Enter text to encrypt..."></textarea>
                 </div>
 
-                <div class="arrow">-></div>
+                <div class="arrow">→</div>
              
                 <div class="form-group">
                     <label id="output-label">Encrypted Result</label>

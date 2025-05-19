@@ -22,7 +22,7 @@ def decrypt(text, shift):
     # Decryption is just encryption with the negative shift
     return encrypt(text, -shift)
 
-@app.route('/')
+@app.route('/') #route to the main page
 def index():
     return render_template('index.html')
 

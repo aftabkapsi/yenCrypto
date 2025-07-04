@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Set current year in footer
     //document.getElementById('current-year').textContent = new Date().getFullYear();
-    
     // Get DOM elements
     const tabs = document.querySelectorAll('.tab');
     const inputText = document.getElementById('input-text');

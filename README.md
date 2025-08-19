@@ -8,7 +8,6 @@
  ## Features
  - Encrypt plain text with custom shift value.
  - decrypt encrypted text back to the orignal message.
- - Download the result as a `.txt` file.
 
 ## Tech Stack
 - **Frontend:** HTML, CSS3, JavaScript.
